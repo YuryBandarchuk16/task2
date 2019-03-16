@@ -23,6 +23,11 @@
   background: none;
 }
 
+.hamburger__img {
+  width: 25px;
+  height: 25px;
+}
+
 .mail-logo {
   display: inline-block;
   vertical-align: top;
@@ -380,7 +385,7 @@
   border-bottom-right-radius: 3px;
 }
 
-.mail-footer a {
+.mail-footer__link {
   outline: none;
   text-decoration: none;
   color: inherit;
