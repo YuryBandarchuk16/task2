@@ -170,7 +170,7 @@
   overflow-y: scroll;
 }
 
-.mailscreen-checkbox {
+.email__mailscreen-checkbox {
   width: 16px;
   height: 16px;
   border-radius: 3px;
@@ -230,7 +230,7 @@
   border-bottom: solid 1px #e2e2e2;
 }
 
-.sender-photo {
+.email__sender-photo {
     margin-left: 10px;
     display: inline-block;
     vertical-align: middle;
@@ -238,7 +238,7 @@
     border-radius: 50%;
 }
 
-.sender-part {
+.email__sender-part {
   display: inline-block;
   vertical-align: middle;
   white-space: nowrap;
@@ -246,17 +246,17 @@
   text-overflow: ellipsis;
 }
 
-.sender-name {
+.email__sender-name {
   font-size: 13px; 
   margin-left: 10px;
   width: 25%;
 }
 
-.unread .sender-name {
+.unread .email__sender-name {
   font-weight: bold;
 }
 
-.unread-flag {
+.email__unread-flag {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -266,17 +266,17 @@
     margin-right: 10px;
 }
 
-.sender-title {
+.email__sender-title {
   width: 46%;
   font-size: 13px;
   text-overflow: ellipsis;;
 }
 
-.unread .sender-title {
+.unread .email__sender-title {
   font-weight: bold;
 }
 
-.mail-date {
+.email__mail-date {
   position: absolute;
   right: 10px;
   height: 100%;
@@ -287,7 +287,7 @@
   text-align: right;
 }
 
-.unread .unread-flag {
+.unread .email__unread-flag {
   background-color: #6287bd;
 }
 
@@ -296,20 +296,20 @@
 }
 
 @media screen and (min-width: 1600px) {
-  .sender-name {
+  .email__sender-name {
     width: 20%;
   }
-  .sender-title {
+  .email__sender-title {
     width: 60%;
   }
 }
 
 
 @media screen and (min-width: 2400px) {
-  .mail-date {
+  .email__mail-date {
     top: 5%;
   }
-  .mailscreen-checkbox {
+  .email__mailscreen-checkbox {
     width: 24px;
     height: 24px;
   }
